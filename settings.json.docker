@@ -70,7 +70,7 @@
   /*
    * Name your instance!
    */
-  "title": "${TITLE:Etherpad}",
+  "title": "${TITLE:Apuntalo}",
 
   /*
    * favicon default name
@@ -89,7 +89,7 @@
    * - "colibris": the new experimental skin (since Etherpad 1.8), candidate to
    *               become the default in Etherpad 2.0
    */
-  "skinName": "${SKIN_NAME:colibris}",
+  "skinName": "${SKIN_NAME:no-skin}",
 
   /*
    * IP and port which etherpad should bind at
@@ -152,7 +152,7 @@
   /*
    * The default text of a pad
    */
-  "defaultPadText" : "Welcome to Etherpad!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nGet involved with Etherpad at http:\/\/etherpad.org\n",
+  "defaultPadText" : "Aquest és un Pad d'Apúntalo.\n\n",
 
   /*
    * Default Pad behavior.
@@ -163,7 +163,7 @@
     "noColors":         false,
     "showControls":     true,
     "showChat":         true,
-    "showLineNumbers":  true,
+    "showLineNumbers":  false,
     "useMonospaceFont": false,
     "userName":         false,
     "userColor":        false,
@@ -218,7 +218,7 @@
    * Pad creation is only via the API.
    * This applies both to group pads and regular pads.
    */
-  "editOnly": false,
+  "editOnly": true,
 
   /*
    * If set to true, those users who have a valid session will automatically be
@@ -271,7 +271,7 @@
    * Allow import of file types other than the supported ones:
    * txt, doc, docx, rtf, odt, html & htm
    */
-  "allowUnknownFileEnds": true,
+  "allowUnknownFileEnds": false,
 
   /*
    * This setting is used if you require authentication of all users.

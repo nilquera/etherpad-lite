@@ -17,7 +17,7 @@ ARG ETHERPAD_PLUGINS=
 
 # Set the following to production to avoid installing devDeps
 # this can be done with build args (and is mandatory to build ARM version)
-ENV NODE_ENV=development
+ENV NODE_ENV=production
 
 # Follow the principle of least privilege: run as unprivileged user.
 #
